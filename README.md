@@ -69,3 +69,16 @@ All UI joins happen only at the final stage
 A score of 0 indicates insufficient or conflicting evidence — not necessarily inaccessible
 
 Outputs were intentionally cleared before submission for readability
+
+
+## Running the Project from Scratch (Optional)
+
+To run the full project pipeline from scratch in databricks, execute the notebooks in the following order:(inserting sas tokens in needed cells inside 01_airbnb_data_loader, and Interface_runner)
+
+1. `01_airbnb_data_loader.ipynb`
+2. `02_osm_wheelchair_poi_loader.ipynb`
+3. `03_terrain_slope_layer.ipynb`
+4. `score_engine.ipynb`
+5. `final_evaluator.ipynb`
+6. `Interface_runner.ipynb`
+

@@ -33,7 +33,7 @@ final_evaluator.ipynb
 Performs consistency and sanity checks on the final scores
 (monotonicity, hard constraints, distribution checks).
 
-interface.ipynb
+interface_runner.ipynb
 Final user interface for presenting results (Top-K listings per city).
 No scoring or filtering logic is applied here.
 
